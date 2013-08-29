@@ -1,0 +1,2 @@
+history | tail -10 | cut -d " "  -f3-5 | while read x; do echo $x; done
+

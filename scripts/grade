@@ -1,0 +1,9 @@
+echo -n UserName:
+read -s login
+echo
+echo -n Pass:
+read -s pass
+echo
+echo $login $pass | python /home/krans4u/scripts/fill_form.py > a.html
+firefox a.html
+#rm a.html

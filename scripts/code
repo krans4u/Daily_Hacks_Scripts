@@ -1,0 +1,8 @@
+FILE=$1;
+if [ -f $FILE ];
+then
+	vi $1;
+else
+	cp /home/krans4u/codes2/templates/template $1;
+	vi $1;
+fi;
